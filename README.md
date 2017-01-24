@@ -1,4 +1,4 @@
-# zigil-finder README
+# zigil-finder
 
 a C-style string literal ('Zigil') highlighter.
 strings wrapped in qoutation (both single and double) 'Zgils' are being highlighted and show in ruler. just like errors etc.
