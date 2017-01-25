@@ -5,16 +5,22 @@ strings wrapped in qoutation (both single and double) 'Zigils' are being highlig
 
 this helps the Internationalization process of your files when you want to replace hard coded strings with the output of your favorite i18n engine.
 ## Features
+
+
+### Color Theme aware
 highlight colors are according to light and dark themes:
 
+#### Dark Theme:
 
-![dark theme](./1.png)
-![light theme](./2.png)
+![dark theme](https://i.imgur.com/iHfmBIi.png)
+#### Light Theme:
 
+![light theme](https://i.imgur.com/IElrEcV.png)
+
+### Zigil Count
 number of Zigils are shown in status bar:
 
-
-![](statusbar.png)
+![status bar](https://i.imgur.com/BUdEiFJ.png)
 
 ## Release Notes
 
