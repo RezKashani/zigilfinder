@@ -3,7 +3,7 @@
     "displayName": "zigil finder",
     "description": "an extension to find hard coded string literals",
     "version": "0.0.1",
-    "publisher": "Reza",
+    "publisher": "RezaTheGreat",
     "engines": {
         "vscode": "^1.5.0"
     },
