@@ -8,8 +8,8 @@ this helps the Internationalization process of your files when you want to repla
 highlight colors are according to light and dark themes:
 
 
-![dark theme](1.png)
-![light theme](2.png)
+![dark theme](./1.png)
+![light theme](./2.png)
 
 number of Zigils are shown in status bar:
 
