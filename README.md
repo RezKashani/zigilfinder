@@ -1,7 +1,7 @@
 # Zigil Finder
 
-a C-style string literal ('Zigil') highlighter.
-strings wrapped in quotation (both single and double) 'Zigils' are being highlighted and shown in ruler. just like errors etc.
+a string literal ('Zigil') highlighter.
+strings wrapped in quotation (both single and double), template strings (using back-ticks) 'Zigils' are being highlighted and shown in ruler. just like errors etc.
 
 this helps the Internationalization process of your files when you want to replace hard coded strings with the output of your favorite i18n engine.
 ## Features
@@ -25,6 +25,17 @@ number of Zigils are shown in status bar:
 
 this is my first extension! be nice to me!
 
-### 1.0.0
+### 0.0.2
+- added support for template strings
+- removed starting notification
+### 0.0.1
 
 Initial release
+
+## Help!
+
+this project is hosted on Github, you can help make it better by contributing to it
+
+[Zigil Finder on Github](https://github.com/RezaTheGreat/zigilfinder.git)
+
+
