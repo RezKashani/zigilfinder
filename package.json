@@ -4,6 +4,10 @@
     "description": "an extension to find hard coded string literals",
     "version": "0.0.1",
     "publisher": "RezaTheGreat",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/RezaTheGreat/zigilfinder"
+    },
     "engines": {
         "vscode": "^1.5.0"
     },
