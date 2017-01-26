@@ -54,7 +54,7 @@
 	export function activate ( context: vscode.ExtensionContext ) {
 
 		// @kary: it's really lame having this in the extension you know...
-		//vscode.window.showInformationMessage( 'Zigil Finder Started!' );
+		// vscode.window.showInformationMessage( 'Zigil Finder Started!' );
 
 		//
 		// ─── STATUS BAR INFO ─────────────────────────────────────────────
@@ -77,16 +77,25 @@
 			if ( activeEditor )
 				triggerUpdateDecorations( );
 
-			vscode.window.onDidChangeActiveTextEditor( editor => {
+
+			// ON DID CHANGE ACTIVE TEXT EDITOR
+			const onDidChangeActiveTextEditorUpdater =  editor => {
 				activeEditor = editor;
 				if ( editor )
 					triggerUpdateDecorations( );
-			}, null, context.subscriptions);
+			}
 
-			vscode.workspace.onDidChangeTextDocument (event => {
+			vscode.window.onDidChangeActiveTextEditor(
+				onDidChangeActiveTextEditorUpdater , null, context.subscriptions);
+
+
+			// ON DID CHANGE TEXT DOCUMENT
+			const onDidChangeTextDocumentUpdater = event => {
 				if ( activeEditor && event.document === activeEditor.document )
 					triggerUpdateDecorations( );
-			}, null, context.subscriptions);
+			}
+			vscode.workspace.onDidChangeTextDocument(
+				onDidChangeTextDocumentUpdater, null, context.subscriptions);
 
 		//
 		// ─── TIMEOUT IMPLEMENTATION ──────────────────────────────────────
