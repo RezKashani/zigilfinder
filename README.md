@@ -1,7 +1,7 @@
 # Zigil Finder
 
-a C-style string literal ('Zigil') highlighter.
-strings wrapped in quotation (both single and double) 'Zigils' are being highlighted and shown in ruler. just like errors etc.
+a string literal ('Zigil') highlighter.
+strings wrapped in quotation (both single and double) and template literals (wrapped in back-ticks) 'Zigils' are being highlighted and shown in ruler. just like errors etc.
 
 this helps the Internationalization process of your files when you want to replace hard coded strings with the output of your favorite i18n engine.
 ## Features
@@ -21,10 +21,24 @@ number of Zigils are shown in status bar:
 
 ![status bar](https://i.imgur.com/BUdEiFJ.png)
 
+## Installation
+Launch VS Code Quick Open (Ctrl+P), paste the following command, and press enter.
+
+`ext install zigil-finder`
+
 ## Release Notes
 
 this is my first extension! be nice to me!
 
-### 1.0.0
+### 0.0.2
+
+-   added support for template strings
+-   removed starting notification
+
+### 0.0.1
 
 Initial release
+
+## Help!
+this is an opensource project and is hosted on Github. feel free to help make it better!
+[Zigil Finder on Github](https://github.com/RezaTheGreat/zigilfinder)
