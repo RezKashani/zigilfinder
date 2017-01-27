@@ -2,7 +2,7 @@
     "name": "zigil-finder",
     "displayName": "zigil finder",
     "description": "an extension to find hard coded string literals",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "RezaTheGreat",
     "repository": {
         "type": "git",
