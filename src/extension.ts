@@ -101,7 +101,7 @@
 		// ─── TIMEOUT IMPLEMENTATION ──────────────────────────────────────
 		//
 
-			let timeout = null;
+			var timeout = null;
 			function triggerUpdateDecorations( ) {
 				if ( timeout ) {
 					clearTimeout( timeout );
@@ -117,7 +117,7 @@
 				if ( !activeEditor ) return;
 
 				// string literals using single and double quotation mark
-				const regEx = /(?:(['"])(?:\\\1|\1)*\1|`(?:\\`|[^`]|\n)*`)/g;   
+				const regEx = /(?:(['"])(?:(?!(?:\\|\1)).|\\.)*\1|`(?:\\`|[^`]|\n)*`)/g;   
 				const text = activeEditor.document.getText();
 				const zigils: vscode.DecorationOptions[] = [];
 				let match;
