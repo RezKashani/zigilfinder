@@ -101,7 +101,7 @@
 		// ─── TIMEOUT IMPLEMENTATION ──────────────────────────────────────
 		//
 
-			let timeout = null;
+			var timeout = null;
 			function triggerUpdateDecorations( ) {
 				if ( timeout ) {
 					clearTimeout( timeout );
