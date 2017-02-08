@@ -12,10 +12,10 @@ highlight colors are according to light and dark themes:
 
 #### Dark Theme:
 
-![dark theme](https://i.imgur.com/iHfmBIi.png)
+![dark theme](http://i.imgur.com/n9sdJqc.png)
 #### Light Theme:
 
-![light theme](https://i.imgur.com/IElrEcV.png)
+![light theme](http://i.imgur.com/xMsb6SN.png)
 
 ### Zigil Count
 number of Zigils are shown in status bar:
@@ -30,6 +30,9 @@ Launch VS Code Quick Open (Ctrl+P), paste the following command, and press enter
 ## Release Notes
 
 this is my first extension! be nice to me!
+### 0.0.3
+
+changed highlight colors for better readablity
 
 ### 0.0.2
 
