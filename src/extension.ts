@@ -19,18 +19,17 @@
 //
 
 	const zigilDecorationType = vscode.window.createTextEditorDecorationType({
-		borderWidth: '1px',
-		borderStyle: 'solid',
+		border: '1px solid',
 		overviewRulerLane: vscode.OverviewRulerLane.Right,
-
 		//
 		// ─── LIGHT THEME ─────────────────────────────────────────────────
 		//
 
 			light: {
-				backgroundColor: 'rgba(249, 108, 108, 1)',
-				borderColor: 'darkblue',
+				backgroundColor: '#f6f6f8',
+				borderColor: 'rgb(51,54,59)',
 				overviewRulerColor: 'rgba(249, 108, 108, 1)',
+				color: '#fa720e',
 			},
 		
 		//
@@ -38,10 +37,11 @@
 		//
 
 			dark: {
-				backgroundColor: 'rgba(117, 8, 181, 1)',
-				borderColor: 'rgba(181, 8, 8, 1)',
+				backgroundColor: '#2B3856',
+				borderColor: '#fee975',
 				overviewRulerColor: 'rgba(117, 8, 181, 1)',
-			}
+				color:'#e9e9e9',
+			},
 
 		// ─────────────────────────────────────────────────────────────────
 
@@ -53,8 +53,6 @@
 
 	export function activate ( context: vscode.ExtensionContext ) {
 
-		// @kary: it's really lame having this in the extension you know...
-		// vscode.window.showInformationMessage( 'Zigil Finder Started!' );
 
 		//
 		// ─── STATUS BAR INFO ─────────────────────────────────────────────
